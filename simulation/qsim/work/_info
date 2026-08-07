@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Felipe\Documents\GitHub\MIC1-AOC2\simulation\qsim
+vSLL
+Z1 !s100 [InOSH6O0Plio=6b7UW7X2
+Z2 I2RieVF]C5NQ0j^TE^0Z^a2
+Z3 Ve1Q662HX@az;T7KL;LOVD2
+Z4 dC:\Users\Felipe\Documents\GitHub\MIC1-AOC2\simulation\qsim
+Z5 w1786116460
+Z6 8MIC1.vo
+Z7 FMIC1.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|MIC1.vo|
+Z10 o-work work -O0
+Z11 n@s@l@l
+!i10b 1
+!s85 0
+Z12 !s108 1786116461.168000
+Z13 !s107 MIC1.vo|
+!s101 -O0
+vSLL_vlg_check_tst
+!i10b 1
+Z14 !s100 cKIi@l;^N5;58_YZd^FG52
+Z15 IALgY@83Voe_?f45ST76Wc1
+Z16 V;U_^JBKj0JbGJ8[[2T7h`3
+R4
+Z17 w1786116459
+Z18 8SLL.vwf.vt
+Z19 FSLL.vwf.vt
+L0 57
+R8
+r1
+!s85 0
+31
+Z20 !s108 1786116461.263000
+Z21 !s107 SLL.vwf.vt|
+Z22 !s90 -work|work|SLL.vwf.vt|
+!s101 -O0
+R10
+Z23 n@s@l@l_vlg_check_tst
+vSLL_vlg_sample_tst
+!i10b 1
+Z24 !s100 lXD3QDO@@zDSG954CN7fY0
+Z25 I18K5;m;LV7@R6fNQdJFkM2
+Z26 V41S15ZOWK4?_K3im9A5jm2
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@s@l@l_vlg_sample_tst
+vSLL_vlg_vec_tst
+!i10b 1
+Z28 !s100 BQlMiL1;d=TT?PLMac?D^2
+Z29 I>EkIXM2jFfH>hoz0AgzJB3
+Z30 Vnc==<1BMZIM7>zSj=[_gE3
+R4
+R17
+R18
+R19
+Z31 L0 709
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z32 n@s@l@l_vlg_vec_tst
