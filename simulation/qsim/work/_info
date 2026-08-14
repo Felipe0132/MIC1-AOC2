@@ -3,57 +3,57 @@ K3
 13
 cModel Technology
 Z0 dC:\Users\Felipe\Documents\GitHub\MIC1-AOC2\simulation\qsim
-vSLL
-Z1 !s100 [InOSH6O0Plio=6b7UW7X2
-Z2 I2RieVF]C5NQ0j^TE^0Z^a2
-Z3 Ve1Q662HX@az;T7KL;LOVD2
-Z4 dC:\Users\Felipe\Documents\GitHub\MIC1-AOC2\simulation\qsim
-Z5 w1786116460
-Z6 8MIC1.vo
-Z7 FMIC1.vo
+vSHIFTER
+Z1 INdBM70NW;CbZWP]D];9IU2
+Z2 VhCjWIJlfA[D9[YU=aPkJ>0
+Z3 dC:\Users\Felipe\Documents\GitHub\MIC1-AOC2\simulation\qsim
+Z4 w1786705304
+Z5 8MIC1.vo
+Z6 FMIC1.vo
 L0 31
-Z8 OV;L;10.1d;51
+Z7 OV;L;10.1d;51
 r1
 31
-Z9 !s90 -work|work|MIC1.vo|
-Z10 o-work work -O0
-Z11 n@s@l@l
+Z8 !s90 -work|work|MIC1.vo|
+Z9 o-work work -O0
+Z10 n@s@h@i@f@t@e@r
 !i10b 1
+Z11 !s100 EhGO@7hbbKjbmX2zo8oko2
 !s85 0
-Z12 !s108 1786116461.168000
+Z12 !s108 1786705305.182000
 Z13 !s107 MIC1.vo|
 !s101 -O0
-vSLL_vlg_check_tst
+vSHIFTER_vlg_check_tst
 !i10b 1
-Z14 !s100 cKIi@l;^N5;58_YZd^FG52
-Z15 IALgY@83Voe_?f45ST76Wc1
-Z16 V;U_^JBKj0JbGJ8[[2T7h`3
-R4
-Z17 w1786116459
-Z18 8SLL.vwf.vt
-Z19 FSLL.vwf.vt
-L0 57
-R8
+Z14 !s100 ]78WBHN5`8D[RRb@c<TVo2
+Z15 IWgAXc`5B[Q;]C3beJC;9^1
+Z16 VngogDYCRlb=PAPSEjJS5o2
+R3
+Z17 w1786705303
+Z18 8SHIFTER.vwf.vt
+Z19 FSHIFTER.vwf.vt
+L0 59
+R7
 r1
 !s85 0
 31
-Z20 !s108 1786116461.263000
-Z21 !s107 SLL.vwf.vt|
-Z22 !s90 -work|work|SLL.vwf.vt|
+Z20 !s108 1786705305.296000
+Z21 !s107 SHIFTER.vwf.vt|
+Z22 !s90 -work|work|SHIFTER.vwf.vt|
 !s101 -O0
-R10
-Z23 n@s@l@l_vlg_check_tst
-vSLL_vlg_sample_tst
+R9
+Z23 n@s@h@i@f@t@e@r_vlg_check_tst
+vSHIFTER_vlg_sample_tst
 !i10b 1
-Z24 !s100 lXD3QDO@@zDSG954CN7fY0
-Z25 I18K5;m;LV7@R6fNQdJFkM2
-Z26 V41S15ZOWK4?_K3im9A5jm2
-R4
+Z24 !s100 bclO52BBV8B7JbL2j@Z3L3
+Z25 I0gGZ0YBn6]nX>4`U>9^@Y1
+Z26 VlFX1k`OSTDGYO_OYW2GoV2
+R3
 R17
 R18
 R19
 L0 29
-R8
+R7
 r1
 !s85 0
 31
@@ -61,19 +61,19 @@ R20
 R21
 R22
 !s101 -O0
-R10
-Z27 n@s@l@l_vlg_sample_tst
-vSLL_vlg_vec_tst
+R9
+Z27 n@s@h@i@f@t@e@r_vlg_sample_tst
+vSHIFTER_vlg_vec_tst
 !i10b 1
-Z28 !s100 BQlMiL1;d=TT?PLMac?D^2
-Z29 I>EkIXM2jFfH>hoz0AgzJB3
-Z30 Vnc==<1BMZIM7>zSj=[_gE3
-R4
+Z28 !s100 Y;n3lRRD^;i>c]lCSEaBa0
+Z29 ImIcQ>6kKI?k`P99N>OkjT0
+Z30 V^>@:mkzE;3CWHHX_3L`OB2
+R3
 R17
 R18
 R19
-Z31 L0 709
-R8
+Z31 L0 849
+R7
 r1
 !s85 0
 31
@@ -81,5 +81,165 @@ R20
 R21
 R22
 !s101 -O0
-R10
-Z32 n@s@l@l_vlg_vec_tst
+R9
+Z32 n@s@h@i@f@t@e@r_vlg_vec_tst
+vSLL
+Z33 !s100 [InOSH6O0Plio=6b7UW7X2
+Z34 I2RieVF]C5NQ0j^TE^0Z^a2
+Z35 Ve1Q662HX@az;T7KL;LOVD2
+R3
+Z36 w1786116460
+R5
+R6
+L0 31
+R7
+r1
+31
+R8
+R9
+Z37 n@s@l@l
+Z38 !s108 1786116461.168000
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vSLL_vlg_check_tst
+Z39 !s100 cKIi@l;^N5;58_YZd^FG52
+Z40 IALgY@83Voe_?f45ST76Wc1
+Z41 V;U_^JBKj0JbGJ8[[2T7h`3
+R3
+Z42 w1786116459
+Z43 8SLL.vwf.vt
+Z44 FSLL.vwf.vt
+L0 57
+R7
+r1
+31
+Z45 !s108 1786116461.263000
+Z46 !s107 SLL.vwf.vt|
+Z47 !s90 -work|work|SLL.vwf.vt|
+R9
+Z48 n@s@l@l_vlg_check_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vSLL_vlg_sample_tst
+Z49 !s100 lXD3QDO@@zDSG954CN7fY0
+Z50 I18K5;m;LV7@R6fNQdJFkM2
+Z51 V41S15ZOWK4?_K3im9A5jm2
+R3
+R42
+R43
+R44
+L0 29
+R7
+r1
+31
+R45
+R46
+R47
+R9
+Z52 n@s@l@l_vlg_sample_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vSLL_vlg_vec_tst
+Z53 !s100 BQlMiL1;d=TT?PLMac?D^2
+Z54 I>EkIXM2jFfH>hoz0AgzJB3
+Z55 Vnc==<1BMZIM7>zSj=[_gE3
+R3
+R42
+R43
+R44
+Z56 L0 709
+R7
+r1
+31
+R45
+R46
+R47
+R9
+Z57 n@s@l@l_vlg_vec_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vULA_32bit
+Z58 IB=Mk0nZ@<jVm=9hJ`;F@80
+Z59 Vz]A=FUhncgaz^=MEb;3OL1
+R3
+Z60 w1786703623
+R5
+R6
+L0 31
+R7
+r1
+31
+R8
+R9
+Z61 n@u@l@a_32bit
+Z62 !s100 ]<;9E^[KZ:Ef]NVA[S;@K2
+Z63 !s108 1786703628.102000
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vULA_32bit_vlg_check_tst
+Z64 IhOJSF0akkPNckIhdc3GaI2
+Z65 V72]HX6LG?0IW?JOFl@HdF1
+R3
+Z66 w1786703621
+R18
+R19
+L0 61
+R7
+r1
+31
+Z67 !s108 1786703628.290000
+Z68 !s107 SHIFTER.vwf.vt|
+R22
+R9
+Z69 n@u@l@a_32bit_vlg_check_tst
+Z70 !s100 K6N@U?K`4nLf3[f4]8dZl2
+!i10b 1
+!s85 0
+!s101 -O0
+vULA_32bit_vlg_sample_tst
+Z71 IVVzcV?cRzfJZkl;mnZbca0
+Z72 V8OdN=N:To;=mBQ_:L4DKj1
+R3
+R66
+R18
+R19
+L0 29
+R7
+r1
+31
+R67
+R68
+R22
+R9
+Z73 n@u@l@a_32bit_vlg_sample_tst
+Z74 !s100 KC0`YUKTBQNY2kSf`zgl^0
+!i10b 1
+!s85 0
+!s101 -O0
+vULA_32bit_vlg_vec_tst
+Z75 IdSRI9PmEcN<PY`2i5QS>d0
+Z76 VJ=3lTQCEj3_FZ<ZSZ:UI>2
+R3
+R66
+R18
+R19
+Z77 L0 800
+R7
+r1
+31
+R67
+R68
+R22
+R9
+Z78 n@u@l@a_32bit_vlg_vec_tst
+Z79 !s100 Bj[G0ZFJ;9W_ZnP:NOClk3
+!i10b 1
+!s85 0
+!s101 -O0
