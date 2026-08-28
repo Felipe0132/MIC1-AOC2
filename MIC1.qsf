@@ -49,6 +49,13 @@ set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
 set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
 set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "C:/Users/Aluno/Documents/GitHub/MIC1-AOC2/SRA1.vwf"
+set_global_assignment -name EDA_NETLIST_WRITER_OUTPUT_DIR "C:/Users/Felipe/Documents/GitHub/MIC1-AOC2/simulation/qsim/" -section_id eda_simulation
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name VECTOR_WAVEFORM_FILE SHIFTER.vwf
+set_global_assignment -name BSF_FILE REGISTER.bsf
 set_global_assignment -name VECTOR_WAVEFORM_FILE ULA_32bit.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE ULA_8bit_OR.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE ULA_8bit_CONSTANTS.vwf
@@ -69,11 +76,7 @@ set_global_assignment -name BDF_FILE ULA_32bit.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE ULA_1bit.vwf
 set_global_assignment -name BDF_FILE SRA1.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE SRA1.vwf
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "C:/Users/Aluno/Documents/GitHub/MIC1-AOC2/SRA1.vwf"
-set_global_assignment -name EDA_NETLIST_WRITER_OUTPUT_DIR "C:/Users/Felipe/Documents/GitHub/MIC1-AOC2/simulation/qsim/" -section_id eda_simulation
 set_global_assignment -name BDF_FILE SLL8.bdf
 set_global_assignment -name BDF_FILE SHIFTER.bdf
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name BDF_FILE REGISTER32.bdf
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

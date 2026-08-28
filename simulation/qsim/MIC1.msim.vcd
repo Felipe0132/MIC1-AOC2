@@ -3,7 +3,7 @@ $comment
 		vcd file MIC1.msim.vcd -direction
 $end
 $date
-	Fri Aug 14 08:01:46 2026
+	Fri Aug 28 08:43:10 2026
 $end
 $version
 	ModelSim Version 10.1d
@@ -91,28 +91,28 @@ $var wire 1 k OUTPUT[1]~output_o $end
 $var wire 1 l OUTPUT[0]~output_o $end
 $var wire 1 m Z~output_o $end
 $var wire 1 n MIR[23]~input_o $end
-$var wire 1 o INPUT[23]~input_o $end
-$var wire 1 p MIR[22]~input_o $end
+$var wire 1 o MIR[22]~input_o $end
+$var wire 1 p INPUT[23]~input_o $end
 $var wire 1 q INPUT[31]~input_o $end
 $var wire 1 r inst11[31]~0_combout $end
-$var wire 1 s INPUT[30]~input_o $end
-$var wire 1 t inst11[30]~1_combout $end
-$var wire 1 u INPUT[22]~input_o $end
-$var wire 1 v INPUT[29]~input_o $end
-$var wire 1 w INPUT[21]~input_o $end
-$var wire 1 x inst11[29]~2_combout $end
+$var wire 1 s INPUT[22]~input_o $end
+$var wire 1 t INPUT[30]~input_o $end
+$var wire 1 u inst11[30]~1_combout $end
+$var wire 1 v INPUT[21]~input_o $end
+$var wire 1 w inst11[29]~2_combout $end
+$var wire 1 x INPUT[29]~input_o $end
 $var wire 1 y inst11[29]~3_combout $end
-$var wire 1 z INPUT[20]~input_o $end
-$var wire 1 { inst11[28]~4_combout $end
-$var wire 1 | INPUT[28]~input_o $end
+$var wire 1 z INPUT[28]~input_o $end
+$var wire 1 { INPUT[20]~input_o $end
+$var wire 1 | inst11[28]~4_combout $end
 $var wire 1 } inst11[28]~5_combout $end
 $var wire 1 ~ INPUT[27]~input_o $end
 $var wire 1 !! INPUT[19]~input_o $end
 $var wire 1 "! inst11[27]~6_combout $end
 $var wire 1 #! inst11[27]~7_combout $end
-$var wire 1 $! INPUT[26]~input_o $end
-$var wire 1 %! INPUT[18]~input_o $end
-$var wire 1 &! inst11[26]~8_combout $end
+$var wire 1 $! INPUT[18]~input_o $end
+$var wire 1 %! inst11[26]~8_combout $end
+$var wire 1 &! INPUT[26]~input_o $end
 $var wire 1 '! inst11[26]~9_combout $end
 $var wire 1 (! INPUT[17]~input_o $end
 $var wire 1 )! inst11[25]~10_combout $end
@@ -170,17 +170,17 @@ $var wire 1 \! inst11[9]~43_combout $end
 $var wire 1 ]! INPUT[0]~input_o $end
 $var wire 1 ^! inst11[8]~44_combout $end
 $var wire 1 _! inst11[8]~45_combout $end
-$var wire 1 `! inst6~2_combout $end
+$var wire 1 `! inst6~1_combout $end
 $var wire 1 a! inst6~3_combout $end
-$var wire 1 b! inst6~4_combout $end
-$var wire 1 c! inst6~5_combout $end
-$var wire 1 d! inst6~6_combout $end
-$var wire 1 e! inst6~7_combout $end
-$var wire 1 f! inst6~0_combout $end
-$var wire 1 g! inst5~0_combout $end
-$var wire 1 h! inst5~1_combout $end
-$var wire 1 i! inst6~1_combout $end
-$var wire 1 j! inst6~8_combout $end
+$var wire 1 b! inst6~0_combout $end
+$var wire 1 c! inst6~2_combout $end
+$var wire 1 d! inst6~4_combout $end
+$var wire 1 e! inst6~8_combout $end
+$var wire 1 f! inst6~9_combout $end
+$var wire 1 g! inst6~5_combout $end
+$var wire 1 h! inst6~6_combout $end
+$var wire 1 i! inst6~7_combout $end
+$var wire 1 j! inst6~10_combout $end
 $var wire 1 k! inst11 [31] $end
 $var wire 1 l! inst11 [30] $end
 $var wire 1 m! inst11 [29] $end
@@ -300,15 +300,15 @@ xH
 0p
 1q
 1r
-0s
+1s
 0t
-1u
-1v
+0u
+0v
 0w
-0x
+1x
 1y
-1z
-0{
+0z
+1{
 0|
 0}
 0~
@@ -376,14 +376,14 @@ xH
 0^!
 0_!
 0`!
-0a!
-1b!
+1a!
+0b!
 0c!
 0d!
 0e!
 0f!
 0g!
-0h!
+1h!
 0i!
 0j!
 1,"
@@ -421,14 +421,14 @@ zk!
 $end
 #250000
 b1 "
-1p
+1o
 0E
 1^!
 1X!
 1=!
 17!
-1{
-1t
+1|
+1u
 0,"
 1+"
 0*"
@@ -437,10 +437,12 @@ b1 "
 0;!
 05!
 0y
+1e!
+1i!
+1g!
 1c!
-1a!
 1`!
-1f!
+1b!
 0l
 1k
 0j
@@ -463,10 +465,12 @@ b1 "
 18!
 1}
 1l!
-1i!
+1d!
+0i!
+0g!
 0c!
-0a!
-0f!
+0b!
+0h!
 1d
 1b
 1Y
@@ -479,7 +483,7 @@ b1 "
 1.
 1'
 1%
-0i!
+0d!
 #500000
 b11 "
 b11100000010100000000101000000101 !
@@ -521,17 +525,17 @@ b10 "
 10!
 1,!
 1(!
-1%!
+1$!
 1!!
-1w
-1o
+1v
+1p
 1.!
 1*!
-1$!
+1&!
 1~
-1|
-1s
-0p
+1z
+1t
+0o
 1n
 1E
 0^!
@@ -548,10 +552,10 @@ b10 "
 1-!
 1)!
 1C!
-1&!
+1%!
 1"!
-1x
-0t
+1w
+0u
 0+"
 0k
 0B
@@ -572,7 +576,7 @@ b10 "
 1'!
 1#!
 1y
-0b!
+0a!
 0`!
 0d
 1a
@@ -640,7 +644,7 @@ b11000 !
 b1000 !
 b0 !
 b11 "
-1p
+1o
 0W!
 0T!
 0Q!
@@ -657,19 +661,19 @@ b11 "
 00!
 0,!
 0(!
-0%!
-0!!
-0z
-0w
-0u
-0o
-0.!
-0*!
 0$!
-0~
-0|
+0!!
+0{
 0v
 0s
+0p
+0.!
+0*!
+0&!
+0~
+0z
+0x
+0t
 0q
 0E
 0X!
@@ -688,13 +692,14 @@ b11 "
 01!
 0-!
 0)!
-0&!
+0%!
 0"!
-0{
-0x
+0|
+0w
 0l!
 0r
-1d!
+1h!
+1f!
 0N
 0M
 0L
@@ -721,11 +726,12 @@ b11 "
 0#!
 0}
 0y
-1c!
-1b!
+1i!
+1g!
 1a!
+1c!
 1`!
-1f!
+1b!
 0b
 0a
 0`
@@ -766,8 +772,7 @@ b11 "
 0(
 0'
 0&
-1e!
-1i!
+1d!
 1j!
 1m
 1D
