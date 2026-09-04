@@ -1,5 +1,5 @@
 EDA Netlist Writer report for MIC1
-Fri Aug 28 10:48:04 2026
+Fri Sep 04 07:45:54 2026
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -36,7 +36,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Fri Aug 28 10:48:04 2026 ;
+; EDA Netlist Writer Status ; Successful - Fri Sep 04 07:45:54 2026 ;
 ; Revision Name             ; MIC1                                  ;
 ; Top-level Entity Name     ; REGISTER32                            ;
 ; Family                    ; Cyclone III                           ;
@@ -93,13 +93,13 @@ Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: programming logic devices manufactured by Altera and sold by 
     Info: Altera or its authorized distributors.  Please refer to the 
     Info: applicable agreement for further details.
-    Info: Processing started: Fri Aug 28 10:48:04 2026
+    Info: Processing started: Fri Sep 04 07:45:53 2026
 Info: Command: quartus_eda --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory=C:/Users/Felipe/Documents/GitHub/MIC1-AOC2/simulation/qsim/ MIC1 -c MIC1
 Info (204019): Generated file MIC1.vo in folder "C:/Users/Felipe/Documents/GitHub/MIC1-AOC2/simulation/qsim//" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4565 megabytes
-    Info: Processing ended: Fri Aug 28 10:48:04 2026
-    Info: Elapsed time: 00:00:00
+    Info: Peak virtual memory: 4560 megabytes
+    Info: Processing ended: Fri Sep 04 07:45:54 2026
+    Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
 

@@ -7,8 +7,6 @@
 # Top level modules:
 # 	REGISTER32
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module REGISTER32_vlg_sample_tst
-# -- Compiling module REGISTER32_vlg_check_tst
 # -- Compiling module REGISTER32_vlg_vec_tst
 # 
 # Top level modules:
@@ -23,9 +21,6 @@
 # Loading cycloneiii_ver.cycloneiii_ena_reg
 # Loading cycloneiii_ver.cycloneiii_lcell_comb
 # Loading altera_ver.dffeas
-# Loading work.REGISTER32_vlg_sample_tst
-# Loading work.REGISTER32_vlg_check_tst
 # Loading altera_ver.PRIM_GDFF_LOW
-# Simulation passed !
-# ** Note: $finish    : REGISTER32.vwf.vt(1303)
-#    Time: 1 us  Iteration: 0  Instance: /REGISTER32_vlg_vec_tst/tb_out
+# ** Note: $finish    : SHIFTER.vwf.vt(60)
+#    Time: 1 us  Iteration: 0  Instance: /REGISTER32_vlg_vec_tst
