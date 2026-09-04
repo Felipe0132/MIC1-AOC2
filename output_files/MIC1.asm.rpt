@@ -1,5 +1,5 @@
 Assembler report for MIC1
-Fri Sep 04 07:45:07 2026
+Fri Sep 04 10:06:24 2026
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -37,11 +37,11 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Fri Sep 04 07:45:06 2026 ;
+; Assembler Status      ; Successful - Fri Sep 04 10:06:24 2026 ;
 ; Revision Name         ; MIC1                                  ;
-; Top-level Entity Name ; REGISTER32                            ;
+; Top-level Entity Name ; MDR                                   ;
 ; Family                ; Cyclone III                           ;
-; Device                ; EP3C16F484C6                          ;
+; Device                ; EP3C5F256C6                           ;
 +-----------------------+---------------------------------------+
 
 
@@ -91,9 +91,9 @@ applicable agreement for further details.
 +----------------+---------------------------------------------------------------------------+
 ; Option         ; Setting                                                                   ;
 +----------------+---------------------------------------------------------------------------+
-; Device         ; EP3C16F484C6                                                              ;
-; JTAG usercode  ; 0x000E0323                                                                ;
-; Checksum       ; 0x000E0323                                                                ;
+; Device         ; EP3C5F256C6                                                               ;
+; JTAG usercode  ; 0x000948E2                                                                ;
+; Checksum       ; 0x000948E2                                                                ;
 +----------------+---------------------------------------------------------------------------+
 
 
@@ -103,14 +103,14 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Assembler
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Fri Sep 04 07:45:04 2026
+    Info: Processing started: Fri Sep 04 10:06:23 2026
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off MIC1 -c MIC1
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4611 megabytes
-    Info: Processing ended: Fri Sep 04 07:45:07 2026
-    Info: Elapsed time: 00:00:03
-    Info: Total CPU time (on all processors): 00:00:02
+    Info: Peak virtual memory: 4609 megabytes
+    Info: Processing ended: Fri Sep 04 10:06:24 2026
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
 
 
