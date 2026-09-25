@@ -36,21 +36,44 @@
 # -------------------------------------------------------------------------- #
 
 
-set_global_assignment -name FAMILY "Cyclone III"
+set_global_assignment -name FAMILY "Cyclone II"
 set_global_assignment -name DEVICE AUTO
-set_global_assignment -name TOP_LEVEL_ENTITY MDR
+set_global_assignment -name TOP_LEVEL_ENTITY DATAPATH
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "08:24:07  MAY 26, 2026"
-set_global_assignment -name LAST_QUARTUS_VERSION 13.1
+set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
 set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
-set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_global_assignment -name SIMULATION_MODE TIMING
 set_global_assignment -name VECTOR_OUTPUT_FORMAT VWF
 set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
 set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
 set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
-set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "C:/Users/Aluno/Documents/GitHub/MIC1-AOC2/SRA1.vwf"
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_simulation
 set_global_assignment -name EDA_NETLIST_WRITER_OUTPUT_DIR "C:/Users/Felipe/Documents/GitHub/MIC1-AOC2/simulation/qsim/" -section_id eda_simulation
+set_global_assignment -name VECTOR_WAVEFORM_FILE DATAPATH.vwf
+set_global_assignment -name TEXT_FILE "DATAPATH test microcode.txt"
+set_global_assignment -name VECTOR_WAVEFORM_FILE BANK_REGS_PC_test.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE BANK_REGS_MDR_test.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE BANK_REGS_MBR_test.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE BANK_REGS_MAR_test.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE BANK_REGS.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE MBR.vwf
+set_global_assignment -name BDF_FILE MBR.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE MDR.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE MAR.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE H.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE OPC.vwf
+set_global_assignment -name BDF_FILE OPC.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE TOS.vwf
+set_global_assignment -name BSF_FILE TOS.bsf
+set_global_assignment -name BDF_FILE TOS.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE CPP.vwf
+set_global_assignment -name BDF_FILE CPP.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE LV.vwf
+set_global_assignment -name BDF_FILE LV.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE SP.vwf
+set_global_assignment -name BDF_FILE SP.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE PC.vwf
 set_global_assignment -name BDF_FILE REGISTER.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE REGISTER.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE SHIFTER.vwf
@@ -80,10 +103,13 @@ set_global_assignment -name BDF_FILE SHIFTER.bdf
 set_global_assignment -name BDF_FILE REGISTER32.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE REGISTER32.vwf
 set_global_assignment -name BDF_FILE MDR.bdf
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name BDF_FILE PC.bdf
 set_global_assignment -name BDF_FILE H.bdf
 set_global_assignment -name BDF_FILE MAR.bdf
+set_global_assignment -name BDF_FILE BANK_REGS.bdf
+set_global_assignment -name BDF_FILE DATAPATH.bdf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "C:/Users/Aluno/Desktop/MIC1FELIPESILVA/MIC1-AOC2-main/MIC1-AOC2-main/DATAPATH.vwf"
