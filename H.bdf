@@ -39,7 +39,7 @@ applicable agreement for further details.
 	(input)
 	(rect 80 152 248 168)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "CLOCK" (rect 5 0 46 11)(font "Arial" ))
+	(text "CLOCK" (rect 5 0 45 11)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -55,7 +55,7 @@ applicable agreement for further details.
 	(input)
 	(rect 112 72 280 88)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "LOAD" (rect 5 0 36 11)(font "Arial" ))
+	(text "LOAD" (rect 5 0 35 11)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -71,23 +71,7 @@ applicable agreement for further details.
 	(input)
 	(rect 112 48 280 64)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "IN_C[31..0]" (rect 5 0 62 11)(font "Arial" ))
-	(pt 168 8)
-	(drawing
-		(line (pt 84 12)(pt 109 12))
-		(line (pt 84 4)(pt 109 4))
-		(line (pt 113 8)(pt 168 8))
-		(line (pt 84 12)(pt 84 4))
-		(line (pt 109 4)(pt 113 8))
-		(line (pt 109 12)(pt 113 8))
-	)
-	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
-)
-(pin
-	(input)
-	(rect 80 168 248 184)
-	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "MIR[15]" (rect 5 0 44 11)(font "Arial" ))
+	(text "IN_C[31..0]" (rect 5 0 61 11)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -307,10 +291,6 @@ applicable agreement for further details.
 	(pt 280 160)
 )
 (connector
-	(pt 248 176)
-	(pt 280 176)
-)
-(connector
 	(pt 344 168)
 	(pt 408 168)
 )
@@ -321,6 +301,19 @@ applicable agreement for further details.
 (connector
 	(pt 408 128)
 	(pt 544 128)
+)
+(connector
+	(pt 280 176)
+	(pt 272 176)
+)
+(connector
+	(pt 272 176)
+	(pt 272 184)
+)
+(connector
+	(text "MIR[15]" (rect 210 168 248 179)(font "Arial" ))
+	(pt 272 184)
+	(pt 200 184)
 )
 (junction (pt 520 224))
 (junction (pt 520 208))
