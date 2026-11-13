@@ -42,27 +42,27 @@ USE altera_mf.altera_mf_components.all;
 ENTITY ramTest IS
 	PORT
 	(
-		address_a		: IN STD_LOGIC_VECTOR (9 DOWNTO 0);
-		address_b		: IN STD_LOGIC_VECTOR (11 DOWNTO 0);
+		address_a		: IN STD_LOGIC_VECTOR (11 DOWNTO 0);
+		address_b		: IN STD_LOGIC_VECTOR (9 DOWNTO 0);
 		clock		: IN STD_LOGIC  := '1';
-		data_a		: IN STD_LOGIC_VECTOR (31 DOWNTO 0);
-		data_b		: IN STD_LOGIC_VECTOR (7 DOWNTO 0);
+		data_a		: IN STD_LOGIC_VECTOR (7 DOWNTO 0);
+		data_b		: IN STD_LOGIC_VECTOR (31 DOWNTO 0);
 		wren_a		: IN STD_LOGIC  := '0';
 		wren_b		: IN STD_LOGIC  := '0';
-		q_a		: OUT STD_LOGIC_VECTOR (31 DOWNTO 0);
-		q_b		: OUT STD_LOGIC_VECTOR (7 DOWNTO 0)
+		q_a		: OUT STD_LOGIC_VECTOR (7 DOWNTO 0);
+		q_b		: OUT STD_LOGIC_VECTOR (31 DOWNTO 0)
 	);
 END ramTest;
 
 
 ARCHITECTURE SYN OF ramtest IS
 
-	SIGNAL sub_wire0	: STD_LOGIC_VECTOR (31 DOWNTO 0);
-	SIGNAL sub_wire1	: STD_LOGIC_VECTOR (7 DOWNTO 0);
+	SIGNAL sub_wire0	: STD_LOGIC_VECTOR (7 DOWNTO 0);
+	SIGNAL sub_wire1	: STD_LOGIC_VECTOR (31 DOWNTO 0);
 
 BEGIN
-	q_a    <= sub_wire0(31 DOWNTO 0);
-	q_b    <= sub_wire1(7 DOWNTO 0);
+	q_a    <= sub_wire0(7 DOWNTO 0);
+	q_b    <= sub_wire1(31 DOWNTO 0);
 
 	altsyncram_component : altsyncram
 	GENERIC MAP (
@@ -74,8 +74,8 @@ BEGIN
 		indata_reg_b => "CLOCK0",
 		intended_device_family => "Cyclone III",
 		lpm_type => "altsyncram",
-		numwords_a => 1024,
-		numwords_b => 4096,
+		numwords_a => 4096,
+		numwords_b => 1024,
 		operation_mode => "BIDIR_DUAL_PORT",
 		outdata_aclr_a => "NONE",
 		outdata_aclr_b => "NONE",
@@ -85,10 +85,10 @@ BEGIN
 		read_during_write_mode_mixed_ports => "DONT_CARE",
 		read_during_write_mode_port_a => "NEW_DATA_NO_NBE_READ",
 		read_during_write_mode_port_b => "NEW_DATA_NO_NBE_READ",
-		widthad_a => 10,
-		widthad_b => 12,
-		width_a => 32,
-		width_b => 8,
+		widthad_a => 12,
+		widthad_b => 10,
+		width_a => 8,
+		width_b => 32,
 		width_byteena_a => 1,
 		width_byteena_b => 1,
 		wrcontrol_wraddress_reg_b => "CLOCK0"
@@ -162,10 +162,10 @@ END SYN;
 -- Retrieval info: PRIVATE: USE_DIFF_CLKEN NUMERIC "0"
 -- Retrieval info: PRIVATE: UseDPRAM NUMERIC "1"
 -- Retrieval info: PRIVATE: VarWidth NUMERIC "1"
--- Retrieval info: PRIVATE: WIDTH_READ_A NUMERIC "32"
--- Retrieval info: PRIVATE: WIDTH_READ_B NUMERIC "8"
--- Retrieval info: PRIVATE: WIDTH_WRITE_A NUMERIC "32"
--- Retrieval info: PRIVATE: WIDTH_WRITE_B NUMERIC "8"
+-- Retrieval info: PRIVATE: WIDTH_READ_A NUMERIC "8"
+-- Retrieval info: PRIVATE: WIDTH_READ_B NUMERIC "32"
+-- Retrieval info: PRIVATE: WIDTH_WRITE_A NUMERIC "8"
+-- Retrieval info: PRIVATE: WIDTH_WRITE_B NUMERIC "32"
 -- Retrieval info: PRIVATE: WRADDR_ACLR_B NUMERIC "0"
 -- Retrieval info: PRIVATE: WRADDR_REG_B NUMERIC "1"
 -- Retrieval info: PRIVATE: WRCTRL_ACLR_B NUMERIC "0"
@@ -180,8 +180,8 @@ END SYN;
 -- Retrieval info: CONSTANT: INDATA_REG_B STRING "CLOCK0"
 -- Retrieval info: CONSTANT: INTENDED_DEVICE_FAMILY STRING "Cyclone III"
 -- Retrieval info: CONSTANT: LPM_TYPE STRING "altsyncram"
--- Retrieval info: CONSTANT: NUMWORDS_A NUMERIC "1024"
--- Retrieval info: CONSTANT: NUMWORDS_B NUMERIC "4096"
+-- Retrieval info: CONSTANT: NUMWORDS_A NUMERIC "4096"
+-- Retrieval info: CONSTANT: NUMWORDS_B NUMERIC "1024"
 -- Retrieval info: CONSTANT: OPERATION_MODE STRING "BIDIR_DUAL_PORT"
 -- Retrieval info: CONSTANT: OUTDATA_ACLR_A STRING "NONE"
 -- Retrieval info: CONSTANT: OUTDATA_ACLR_B STRING "NONE"
@@ -191,34 +191,34 @@ END SYN;
 -- Retrieval info: CONSTANT: READ_DURING_WRITE_MODE_MIXED_PORTS STRING "DONT_CARE"
 -- Retrieval info: CONSTANT: READ_DURING_WRITE_MODE_PORT_A STRING "NEW_DATA_NO_NBE_READ"
 -- Retrieval info: CONSTANT: READ_DURING_WRITE_MODE_PORT_B STRING "NEW_DATA_NO_NBE_READ"
--- Retrieval info: CONSTANT: WIDTHAD_A NUMERIC "10"
--- Retrieval info: CONSTANT: WIDTHAD_B NUMERIC "12"
--- Retrieval info: CONSTANT: WIDTH_A NUMERIC "32"
--- Retrieval info: CONSTANT: WIDTH_B NUMERIC "8"
+-- Retrieval info: CONSTANT: WIDTHAD_A NUMERIC "12"
+-- Retrieval info: CONSTANT: WIDTHAD_B NUMERIC "10"
+-- Retrieval info: CONSTANT: WIDTH_A NUMERIC "8"
+-- Retrieval info: CONSTANT: WIDTH_B NUMERIC "32"
 -- Retrieval info: CONSTANT: WIDTH_BYTEENA_A NUMERIC "1"
 -- Retrieval info: CONSTANT: WIDTH_BYTEENA_B NUMERIC "1"
 -- Retrieval info: CONSTANT: WRCONTROL_WRADDRESS_REG_B STRING "CLOCK0"
--- Retrieval info: USED_PORT: address_a 0 0 10 0 INPUT NODEFVAL "address_a[9..0]"
--- Retrieval info: USED_PORT: address_b 0 0 12 0 INPUT NODEFVAL "address_b[11..0]"
+-- Retrieval info: USED_PORT: address_a 0 0 12 0 INPUT NODEFVAL "address_a[11..0]"
+-- Retrieval info: USED_PORT: address_b 0 0 10 0 INPUT NODEFVAL "address_b[9..0]"
 -- Retrieval info: USED_PORT: clock 0 0 0 0 INPUT VCC "clock"
--- Retrieval info: USED_PORT: data_a 0 0 32 0 INPUT NODEFVAL "data_a[31..0]"
--- Retrieval info: USED_PORT: data_b 0 0 8 0 INPUT NODEFVAL "data_b[7..0]"
--- Retrieval info: USED_PORT: q_a 0 0 32 0 OUTPUT NODEFVAL "q_a[31..0]"
--- Retrieval info: USED_PORT: q_b 0 0 8 0 OUTPUT NODEFVAL "q_b[7..0]"
+-- Retrieval info: USED_PORT: data_a 0 0 8 0 INPUT NODEFVAL "data_a[7..0]"
+-- Retrieval info: USED_PORT: data_b 0 0 32 0 INPUT NODEFVAL "data_b[31..0]"
+-- Retrieval info: USED_PORT: q_a 0 0 8 0 OUTPUT NODEFVAL "q_a[7..0]"
+-- Retrieval info: USED_PORT: q_b 0 0 32 0 OUTPUT NODEFVAL "q_b[31..0]"
 -- Retrieval info: USED_PORT: wren_a 0 0 0 0 INPUT GND "wren_a"
 -- Retrieval info: USED_PORT: wren_b 0 0 0 0 INPUT GND "wren_b"
--- Retrieval info: CONNECT: @address_a 0 0 10 0 address_a 0 0 10 0
--- Retrieval info: CONNECT: @address_b 0 0 12 0 address_b 0 0 12 0
+-- Retrieval info: CONNECT: @address_a 0 0 12 0 address_a 0 0 12 0
+-- Retrieval info: CONNECT: @address_b 0 0 10 0 address_b 0 0 10 0
 -- Retrieval info: CONNECT: @clock0 0 0 0 0 clock 0 0 0 0
--- Retrieval info: CONNECT: @data_a 0 0 32 0 data_a 0 0 32 0
--- Retrieval info: CONNECT: @data_b 0 0 8 0 data_b 0 0 8 0
+-- Retrieval info: CONNECT: @data_a 0 0 8 0 data_a 0 0 8 0
+-- Retrieval info: CONNECT: @data_b 0 0 32 0 data_b 0 0 32 0
 -- Retrieval info: CONNECT: @wren_a 0 0 0 0 wren_a 0 0 0 0
 -- Retrieval info: CONNECT: @wren_b 0 0 0 0 wren_b 0 0 0 0
--- Retrieval info: CONNECT: q_a 0 0 32 0 @q_a 0 0 32 0
--- Retrieval info: CONNECT: q_b 0 0 8 0 @q_b 0 0 8 0
+-- Retrieval info: CONNECT: q_a 0 0 8 0 @q_a 0 0 8 0
+-- Retrieval info: CONNECT: q_b 0 0 32 0 @q_b 0 0 32 0
 -- Retrieval info: GEN_FILE: TYPE_NORMAL ramTest.vhd TRUE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL ramTest.inc FALSE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL ramTest.cmp TRUE
--- Retrieval info: GEN_FILE: TYPE_NORMAL ramTest.bsf TRUE FALSE
+-- Retrieval info: GEN_FILE: TYPE_NORMAL ramTest.bsf TRUE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL ramTest_inst.vhd FALSE
 -- Retrieval info: LIB_FILE: altera_mf
