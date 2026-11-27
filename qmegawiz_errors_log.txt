@@ -1,0 +1,49 @@
+
+
+C:/Users/Aluno/PedroFrancisco/MemTest.vhd
+
+Oct 23 08AM:35:15>: The following design file, which has identical name but a different extension 
+from the specified variation file, already exists in the working directory:
+
+MemTest.bdf
+
+This may create a conflict of design files and/or lead to undesirable side
+effects.
+
+Is it OK to continue file generation?
+
+C:/Users/Aluno/PedroFrancisco/MemTest.vhd
+
+Oct 23 09AM:34:31>: The following design file, which has identical name but a different extension 
+from the specified variation file, already exists in the working directory:
+
+MemTest.bdf
+
+This may create a conflict of design files and/or lead to undesirable side
+effects.
+
+Is it OK to continue file generation?
+
+C:/Users/Aluno/PedroFrancisco/MemTest.vhd
+
+Oct 23 10AM:04:38>: The following design file, which has identical name but a different extension 
+from the specified variation file, already exists in the working directory:
+
+MemTest.bdf
+
+This may create a conflict of design files and/or lead to undesirable side
+effects.
+
+Is it OK to continue file generation?
+
+C:/Users/Aluno/PedroFrancisco/MemTest.vhd
+
+Oct 23 10AM:06:14>: The following design file, which has identical name but a different extension 
+from the specified variation file, already exists in the working directory:
+
+MemTest.bdf
+
+This may create a conflict of design files and/or lead to undesirable side
+effects.
+
+Is it OK to continue file generation?

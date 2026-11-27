@@ -20,7 +20,7 @@ applicable agreement for further details.
 */
 (header "symbol" (version "1.2"))
 (symbol
-	(rect 16 16 296 144)
+	(rect 16 16 288 144)
 	(text "MBR" (rect 5 0 30 14)(font "Arial" (font_size 8)))
 	(text "inst" (rect 8 112 25 124)(font "Arial" ))
 	(port
@@ -52,20 +52,20 @@ applicable agreement for further details.
 		(line (pt 0 80)(pt 16 80)(line_width 3))
 	)
 	(port
-		(pt 280 32)
+		(pt 272 32)
 		(output)
-		(text "OUT_MBR_F[7..0]" (rect 0 0 100 14)(font "Arial" (font_size 8)))
-		(text "OUT_MBR_F[7..0]" (rect 159 27 259 41)(font "Arial" (font_size 8)))
-		(line (pt 280 32)(pt 264 32)(line_width 3))
+		(text "OUT_MBR[7..0]" (rect 0 0 86 14)(font "Arial" (font_size 8)))
+		(text "OUT_MBR[7..0]" (rect 165 27 251 41)(font "Arial" (font_size 8)))
+		(line (pt 272 32)(pt 256 32)(line_width 3))
 	)
 	(port
-		(pt 280 48)
+		(pt 272 48)
 		(output)
 		(text "OUT_B[31..0]" (rect 0 0 75 14)(font "Arial" (font_size 8)))
-		(text "OUT_B[31..0]" (rect 184 43 259 57)(font "Arial" (font_size 8)))
-		(line (pt 280 48)(pt 264 48)(line_width 3))
+		(text "OUT_B[31..0]" (rect 176 43 251 57)(font "Arial" (font_size 8)))
+		(line (pt 272 48)(pt 256 48)(line_width 3))
 	)
 	(drawing
-		(rectangle (rect 16 16 264 112))
+		(rectangle (rect 16 16 256 112))
 	)
 )

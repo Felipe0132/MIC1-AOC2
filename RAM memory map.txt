@@ -1,0 +1,20 @@
+R A M   M E M O R Y   M A P
+-----   -----------   -----
+
+METHOD AREA (byte addressing)
+-----------
+addr				description
+0x000				Method Area Initial (PC)
+0x0FF				Method Area Final (256 bytes)
+
+LOCAL VARIABLE FRAME (word addressing)
+--------------------
+	addr			description
+0x040	(0x100)	Local Variable Frame Initial (LV, SP)
+0x3EF	(0xFBF)	Local Variable Frame Final (944 words / 3776 bytes)
+
+CONSTANT POOL (word addressing)
+-------------
+	addr			description
+0x3F0	(0xFC0)	Constant Pool Initial (CPP)
+0x3FF	(0xFFF)	Constant Pool Final (16 words / 64 bytes)

@@ -26,8 +26,8 @@ applicable agreement for further details.
 	(port
 		(pt 0 32)
 		(input)
-		(text "MIR[35..0]" (rect 0 0 55 14)(font "Arial" (font_size 8)))
-		(text "MIR[35..0]" (rect 21 27 76 41)(font "Arial" (font_size 8)))
+		(text "IN_C[31..0]" (rect 0 0 61 14)(font "Arial" (font_size 8)))
+		(text "IN_C[31..0]" (rect 21 27 82 41)(font "Arial" (font_size 8)))
 		(line (pt 0 32)(pt 16 32)(line_width 3))
 	)
 	(port
@@ -40,22 +40,22 @@ applicable agreement for further details.
 	(port
 		(pt 0 64)
 		(input)
-		(text "LOAD" (rect 0 0 34 14)(font "Arial" (font_size 8)))
-		(text "LOAD" (rect 21 59 55 73)(font "Arial" (font_size 8)))
-		(line (pt 0 64)(pt 16 64))
+		(text "DATA_IN[31..0]" (rect 0 0 87 14)(font "Arial" (font_size 8)))
+		(text "DATA_IN[31..0]" (rect 21 59 108 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
 	)
 	(port
 		(pt 0 80)
 		(input)
-		(text "DATA_IN[31..0]" (rect 0 0 87 14)(font "Arial" (font_size 8)))
-		(text "DATA_IN[31..0]" (rect 21 75 108 89)(font "Arial" (font_size 8)))
-		(line (pt 0 80)(pt 16 80)(line_width 3))
+		(text "LOAD" (rect 0 0 34 14)(font "Arial" (font_size 8)))
+		(text "LOAD" (rect 21 75 55 89)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
 	)
 	(port
 		(pt 0 96)
 		(input)
-		(text "IN_C[31..0]" (rect 0 0 61 14)(font "Arial" (font_size 8)))
-		(text "IN_C[31..0]" (rect 21 91 82 105)(font "Arial" (font_size 8)))
+		(text "MIR[35..0]" (rect 0 0 55 14)(font "Arial" (font_size 8)))
+		(text "MIR[35..0]" (rect 21 91 76 105)(font "Arial" (font_size 8)))
 		(line (pt 0 96)(pt 16 96)(line_width 3))
 	)
 	(port

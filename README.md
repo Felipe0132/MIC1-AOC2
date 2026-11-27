@@ -39,9 +39,9 @@ Cada projeto está organizado em sua própria pasta, contendo os arquivos necess
 
 ## 👥 Integrantes
 
-- Davi Vieira
-- Felipe Silva
-- Pedro Henrique Araújo
+- Pedro Francisco
+- Pedro Henrique Sousa
+- Felipe Cortes
 
 ---
 
@@ -49,7 +49,7 @@ Cada projeto está organizado em sua própria pasta, contendo os arquivos necess
 
 **CEFET-MG – Campus Divinópolis**
 
-**Disciplina:** Arquitetura e Organização de Computadores II
+**Disciplina:** Arquitetura e Organização de Computadores I
 
 ---
 
